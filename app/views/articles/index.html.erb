@@ -1,0 +1,32 @@
+
+<div style="text-align:center">  <h1 class="badge-warning align">Listing Books</h1>  </div>
+<p>You can see the books you read below and add the books you want to add.</p>
+<p>If you want to edit the books you have entered the <kbd>"Edit"</kbd> button is available.</p>
+<p>After adding your books, you can add your comments on the <kbd>"Edit"</kbd> button.</p>
+<p>Just click the <kbd>"Destroy"</kbd> button for the book you want to delete.</p>
+<p>Click the <kbd>"Show"</kbd>  button to view comments and add comments about the book you selected.</p>
+<p>Do not forget! You must be registered in the system to perform these operations.</p>
+
+<button type="button" class="btn btn-outline-primary"><%= link_to 'New Books', new_article_path  %></button>
+
+<table class="table">
+  <thead class="thead-light">
+  <tr>
+    <th>Name</th>
+    <th>Author</th>
+    <th colspan="3"></th>
+     </thead>
+  </tr>
+
+  <% @articles.each do |article| %>
+    <tr>
+      <td><%= article.title %></td>
+      <td><%= article.text %></td>
+      <td><%= link_to 'Show', article_path(article) %></td>
+      <td><%= link_to 'Edit', edit_article_path(article) %></td>
+      <td><%= link_to 'Destroy', article_path(article),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+</table>
