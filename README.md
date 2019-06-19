@@ -4,7 +4,7 @@
 
 The user will ask for user input without first running the project.
 
-![1](https://i.hizliresim.com/P75ZYO.png)
+![1](/pictures/1.png)
 
 
 
@@ -15,22 +15,22 @@ The user will ask for user input without first running the project.
 ####  Homepage is here.
 
 
-![2](https://i.hizliresim.com/6DZLZl.png)
+![2](/pictures/2.png)
 
 #### The screen that appears when we click "New Books".
 
 
-![6](https://i.hizliresim.com/lQk6vB.png)
+![6](/pictures/6.png)
 
 #### The screen that appears when we click "Show".
 
 
-![3](https://i.hizliresim.com/Z5LPkk.png)
+![3](/pictures/3.png)
 
 #### The screen that appears when we click "Edit".
 
-![4](https://i.hizliresim.com/DOl0Jl.png)
+![4](/pictures/4.png)
 
 #### The screen that appears when we click "Destroy".
 
-![5](https://i.hizliresim.com/6DZLmk.png)
+![5](/pictures/5.png)
