@@ -1,24 +1,36 @@
-# README
+# Listing Books
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+The user will ask for user input without first running the project.
 
-* System dependencies
+![1](https://i.hizliresim.com/P75ZYO.png)
 
-* Configuration
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+#### After entering the username and password, follow the steps below.
 
-* Deployment instructions
+####  Homepage is here.
 
-* ...
+
+![2](https://i.hizliresim.com/6DZLZl.png)
+
+#### The screen that appears when we click "New Books".
+
+
+![6](https://i.hizliresim.com/lQk6vB.png)
+
+#### The screen that appears when we click "Show".
+
+
+![3](https://i.hizliresim.com/Z5LPkk.png)
+
+#### The screen that appears when we click "Edit".
+
+![4](https://i.hizliresim.com/DOl0Jl.png)
+
+#### The screen that appears when we click "Destroy".
+
+![5](https://i.hizliresim.com/6DZLmk.png)
